@@ -1,0 +1,7 @@
+category: Ruby Graphics
+requires: cygwin ruby libSDL libSDL_ttf libSDL_image libSDL_mixer smpeg
+sdesc: "Ruby bindings for SDL libraries"
+ldesc: "Ruby/SDL is the ruby extension library to use SDL.
+SDL(Simple DirectMedia Layer) is a cross-platform multimedia library
+designed to provide fast access to the graphics framebuffer and audio
+device. See http://www.libsdl.org/ if you want to know SDL in detail."

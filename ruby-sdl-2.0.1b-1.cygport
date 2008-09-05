@@ -1,0 +1,10 @@
+ORIG_PN="rubysdl"
+inherit ruby
+
+DESCRIPTION="Ruby SDL bindings"
+HOMEPAGE="http://www.kmc.gr.jp/~ohai/rubysdl.en.html"
+SRC_URI="mirror://rubyforge/rubysdl/${ORIG_PN}-${PV}.tar.gz"
+PATCH_URI="2.0-opengl.patch"
+
+RDOC_SOURCE=". -x sample -x doc"
+DOCS="README.* NEWS.*"
