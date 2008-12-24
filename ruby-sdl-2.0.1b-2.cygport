@@ -7,4 +7,5 @@ SRC_URI="mirror://rubyforge/rubysdl/${ORIG_PN}-${PV}.tar.gz"
 PATCH_URI="2.0-opengl.patch"
 
 RDOC_SOURCE=". -x sample -x doc"
+RDOC_MODULE="SDL"
 DOCS="README.* NEWS.*"
