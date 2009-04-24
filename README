@@ -3,20 +3,21 @@ ruby-sdl
 Ruby/SDL is the ruby extension library to use SDL.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libSDL1.2_0-1.2.13-2
-  libSDL_image1.2_0-1.2.7-1
-  libSDL_mixer1.2_0-1.2.8-2
-  libSDL_ttf2.0_0-2.0.9-2
-  libSGE0-030809-3
-  libsmpeg0.4_0-0.4.4-5
-  ruby-1.8.7_p72-2
+  cygwin-1.7.0-45
+  libgcc1-4.3.2-2
+  libSDL1.2_0-1.2.13-10
+  libSDL_image1.2_0-1.2.7-10
+  libSDL_mixer1.2_0-1.2.8-10
+  libSDL_ttf2.0_0-2.0.9-10
+  libSGE0-030809-10
+  libsmpeg0.4_0-0.4.4-10
+  ruby-1.8.7_p72-10
 
 Build requirements:
   binutils-20080624-2
-  cygport-0.4.3-1
-  gcc-core-3.4.4-3
-  make-3.81-1
+  cygport-0.9.6-1
+  gcc4-core-4.3.2-2
+  make-3.81-2
 
 Canonical homepage:
   http://www.kmc.gr.jp/~ohai/rubysdl.en.html
@@ -45,11 +46,11 @@ Files included in the binary package:
   /usr/lib/ruby/site_ruby/1.8/rubysdl_aliases.rb
   /usr/lib/ruby/site_ruby/1.8/rubysdl_compatible_ver1.rb
   /usr/lib/ruby/site_ruby/1.8/sdl.rb
-  /usr/share/doc/ruby-sdl-2.0.1b/LICENSE
-  /usr/share/doc/ruby-sdl-2.0.1b/NEWS.en
-  /usr/share/doc/ruby-sdl-2.0.1b/NEWS.ja
-  /usr/share/doc/ruby-sdl-2.0.1b/README.en
-  /usr/share/doc/ruby-sdl-2.0.1b/README.ja
+  /usr/share/doc/ruby-sdl/LICENSE
+  /usr/share/doc/ruby-sdl/NEWS.en
+  /usr/share/doc/ruby-sdl/NEWS.ja
+  /usr/share/doc/ruby-sdl/README.en
+  /usr/share/doc/ruby-sdl/README.ja
   /usr/share/ri/1.8/site/SDL/BMFont/cdesc-BMFont.yaml
   /usr/share/ri/1.8/site/SDL/CD/cdesc-CD.yaml
   /usr/share/ri/1.8/site/SDL/CD/in_drive%3f-i.yaml
@@ -162,18 +163,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 2.0.1b-2 -----
-Rebuilt, enabled SGE support.
-
------ version 2.0.1b-1 -----
-Major version bump.
-
------ version 0.9.5-1 -----
-Upstream version bump, built with the X11 ports of the SDL libraries.
-rdoc class documentation is now included.
-
------ version 0.9.3-1 -----
-Initial release for Cygwin.
+----- version 2.0.1b-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
