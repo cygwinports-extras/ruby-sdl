@@ -3,7 +3,7 @@ ruby-sdl
 Ruby/SDL is the ruby extension library to use SDL.
 
 Runtime requirements:
-  cygwin-1.7.0-45
+  cygwin-1.7.0-51
   libgcc1-4.3.2-2
   libSDL1.2_0-1.2.13-10
   libSDL_image1.2_0-1.2.7-10
@@ -14,8 +14,8 @@ Runtime requirements:
   ruby-1.8.7_p72-10
 
 Build requirements:
-  binutils-20080624-2
-  cygport-0.9.6-1
+  binutils-2.19.51-1
+  cygport-0.9.8-1
   gcc4-core-4.3.2-2
   make-3.81-2
 
@@ -114,9 +114,6 @@ Files included in the binary package:
   /usr/share/ri/1.8/site/SDL/Surface/put-i.yaml
   /usr/share/ri/1.8/site/SDL/Surface/transformBlit-c.yaml
   /usr/share/ri/1.8/site/SDL/TTF/cdesc-TTF.yaml
-  /usr/share/ri/1.8/site/SDL/TTF/drawBlendedUTF8-i.yaml
-  /usr/share/ri/1.8/site/SDL/TTF/drawShadedUTF8-i.yaml
-  /usr/share/ri/1.8/site/SDL/TTF/drawSolidUTF8-i.yaml
   /usr/share/ri/1.8/site/SDL/autoLock%3d-i.yaml
   /usr/share/ri/1.8/site/SDL/autoLock%3f-i.yaml
   /usr/share/ri/1.8/site/SDL/autoLock-i.yaml
@@ -162,6 +159,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.1.0-1 -----
+Version bump.
 
 ----- version 2.0.1b-10 -----
 Initial release for Cygwin 1.7.
