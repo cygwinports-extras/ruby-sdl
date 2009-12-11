@@ -3,11 +3,11 @@ ruby-sdl
 Ruby/SDL is the ruby extension library to use SDL.
 
 Runtime requirements:
-  cygwin-1.7.0-51
-  libgcc1-4.3.2-2
-  libSDL1.2_0-1.2.13-10
-  libSDL_image1.2_0-1.2.7-10
-  libSDL_mixer1.2_0-1.2.8-10
+  cygwin-1.7.0-67
+  libgcc1-4.3.4-1
+  libSDL1.2_0-1.2.14-1
+  libSDL_image1.2_0-1.2.10-1
+  libSDL_mixer1.2_0-1.2.11-1
   libSDL_ttf2.0_0-2.0.9-10
   libSGE0-030809-10
   libsmpeg0.4_0-0.4.4-10
@@ -15,8 +15,8 @@ Runtime requirements:
 
 Build requirements:
   binutils-2.19.51-1
-  cygport-0.9.8-1
-  gcc4-core-4.3.2-2
+  cygport-0.9.10-1
+  gcc4-core-4.3.4-1
   make-3.81-2
 
 Canonical homepage:
@@ -28,137 +28,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack ruby-sdl-2.0.1b-X-src.tar.bz2
+  unpack ruby-sdl-2.1.1.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./ruby-sdl-2.0.1b-X.cygport all
+  cygport ./ruby-sdl-2.1.1.1-X.cygport all
 
 This will create:
-  /usr/src/ruby-sdl-2.0.1b-X-src.tar.bz2
-  /usr/src/ruby-sdl-2.0.1b-X.tar.bz2
+  /usr/src/ruby-sdl-2.1.1.1-X-src.tar.bz2
+  /usr/src/ruby-sdl-2.1.1.1-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/ruby/site_ruby/1.8/i386-cygwin/sdl.so
-  /usr/lib/ruby/site_ruby/1.8/rubysdl_aliases.rb
-  /usr/lib/ruby/site_ruby/1.8/rubysdl_compatible_ver1.rb
-  /usr/lib/ruby/site_ruby/1.8/sdl.rb
-  /usr/share/doc/ruby-sdl/LICENSE
-  /usr/share/doc/ruby-sdl/NEWS.en
-  /usr/share/doc/ruby-sdl/NEWS.ja
-  /usr/share/doc/ruby-sdl/README.en
-  /usr/share/doc/ruby-sdl/README.ja
-  /usr/share/ri/1.8/site/SDL/BMFont/cdesc-BMFont.yaml
-  /usr/share/ri/1.8/site/SDL/CD/cdesc-CD.yaml
-  /usr/share/ri/1.8/site/SDL/CD/in_drive%3f-i.yaml
-  /usr/share/ri/1.8/site/SDL/CollisionMap/cdesc-CollisionMap.yaml
-  /usr/share/ri/1.8/site/SDL/Error/cdesc-Error.yaml
-  /usr/share/ri/1.8/site/SDL/GLSwapBuffers-i.yaml
-  /usr/share/ri/1.8/site/SDL/GL_swap_buffers-i.yaml
-  /usr/share/ri/1.8/site/SDL/Joystick/cdesc-Joystick.yaml
-  /usr/share/ri/1.8/site/SDL/Kanji/cdesc-Kanji.yaml
-  /usr/share/ri/1.8/site/SDL/MPEG/cdesc-MPEG.yaml
-  /usr/share/ri/1.8/site/SDL/Mixer/Wave/cdesc-Wave.yaml
-  /usr/share/ri/1.8/site/SDL/Mixer/cdesc-Mixer.yaml
-  /usr/share/ri/1.8/site/SDL/Mouse/cdesc-Mouse.yaml
-  /usr/share/ri/1.8/site/SDL/Mouse/setCursor-i.yaml
-  /usr/share/ri/1.8/site/SDL/PixelFormat/cdesc-PixelFormat.yaml
-  /usr/share/ri/1.8/site/SDL/Screen/cdesc-Screen.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/cdesc-Surface.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/copyRect-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/drawAABezier-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/drawAABezierAlpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/drawAACircle-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/drawAACircleAlpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/drawAAEllipse-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/drawAAEllipseAlpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/drawAAFilledCircle-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/drawAAFilledEllipse-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/drawAALine-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/drawAALineAlpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/drawBezierAlpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/drawCircleAlpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/drawEllipseAlpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/drawFilledCircle-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/drawFilledCircleAlpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/drawFilledEllipse-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/drawFilledEllipseAlpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/drawFilledRectAlpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/drawLineAlpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/drawRectAlpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/draw_aa_bezier-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/draw_aa_bezier_alpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/draw_aa_circle-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/draw_aa_circle_alpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/draw_aa_ellipse-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/draw_aa_ellipse_alpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/draw_aa_filled_circle-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/draw_aa_line-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/draw_aa_line_alpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/draw_bezier_alpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/draw_circle_alpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/draw_ellipse_alpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/draw_filled_circle-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/draw_filled_circle_alpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/draw_filled_ellipse-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/draw_filled_ellipse_alpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/draw_filled_rect_alpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/draw_line_alpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/draw_rect_alpha-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/getPalette-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/get_palette-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/new-c.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/put-i.yaml
-  /usr/share/ri/1.8/site/SDL/Surface/transformBlit-c.yaml
-  /usr/share/ri/1.8/site/SDL/TTF/cdesc-TTF.yaml
-  /usr/share/ri/1.8/site/SDL/autoLock%3d-i.yaml
-  /usr/share/ri/1.8/site/SDL/autoLock%3f-i.yaml
-  /usr/share/ri/1.8/site/SDL/autoLock-i.yaml
-  /usr/share/ri/1.8/site/SDL/autoLockOFF-i.yaml
-  /usr/share/ri/1.8/site/SDL/autoLockON-i.yaml
-  /usr/share/ri/1.8/site/SDL/auto_lock%3d-i.yaml
-  /usr/share/ri/1.8/site/SDL/auto_lock%3f-i.yaml
-  /usr/share/ri/1.8/site/SDL/auto_lock-i.yaml
-  /usr/share/ri/1.8/site/SDL/auto_lock_off-i.yaml
-  /usr/share/ri/1.8/site/SDL/auto_lock_on-i.yaml
-  /usr/share/ri/1.8/site/SDL/blitSurface-i.yaml
-  /usr/share/ri/1.8/site/SDL/blitSurface2-i.yaml
-  /usr/share/ri/1.8/site/SDL/blit_surface-i.yaml
-  /usr/share/ri/1.8/site/SDL/cdesc-SDL.yaml
-  /usr/share/ri/1.8/site/SDL/checkVideoMode-i.yaml
-  /usr/share/ri/1.8/site/SDL/check_video_mode-i.yaml
-  /usr/share/ri/1.8/site/SDL/color2int-i.yaml
-  /usr/share/ri/1.8/site/SDL/convertRect-i.yaml
-  /usr/share/ri/1.8/site/SDL/getGLAttr-i.yaml
-  /usr/share/ri/1.8/site/SDL/getGammaRamp-i.yaml
-  /usr/share/ri/1.8/site/SDL/getVideoSurface-i.yaml
-  /usr/share/ri/1.8/site/SDL/get_GL_attr-i.yaml
-  /usr/share/ri/1.8/site/SDL/get_gamma_ramp-i.yaml
-  /usr/share/ri/1.8/site/SDL/get_video_surface-i.yaml
-  /usr/share/ri/1.8/site/SDL/listModes-i.yaml
-  /usr/share/ri/1.8/site/SDL/list_modes-i.yaml
-  /usr/share/ri/1.8/site/SDL/setGLAttr-i.yaml
-  /usr/share/ri/1.8/site/SDL/setGamma-i.yaml
-  /usr/share/ri/1.8/site/SDL/setGammaRamp-i.yaml
-  /usr/share/ri/1.8/site/SDL/setVideoMode-i.yaml
-  /usr/share/ri/1.8/site/SDL/set_GL_attr-i.yaml
-  /usr/share/ri/1.8/site/SDL/set_gamma-i.yaml
-  /usr/share/ri/1.8/site/SDL/set_gamma_ramp-i.yaml
-  /usr/share/ri/1.8/site/SDL/set_video_mode-i.yaml
-  /usr/share/ri/1.8/site/SDL/transform-i.yaml
-  /usr/share/ri/1.8/site/SDL/transformBlit-i.yaml
-  /usr/share/ri/1.8/site/SDL/transform_blit-i.yaml
-  /usr/share/ri/1.8/site/SDL/videoDriverName-i.yaml
-  /usr/share/ri/1.8/site/SDL/videoInfo-i.yaml
-  /usr/share/ri/1.8/site/SDL/video_driver_name-i.yaml
-  /usr/share/ri/1.8/site/SDL/video_info-i.yaml
-
-------------------
-
 Port Notes:
+
+----- version 2.1.1.1-1 -----
+Version bump.
 
 ----- version 2.1.0-1 -----
 Version bump.
