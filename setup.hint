@@ -1,7 +1,0 @@
-category: Ruby
-requires: ruby libSDL1.2_0 libSDL_ttf2.0_0 libSDL_image1.2_0 libSDL_mixer1.2_0 libsmpeg0.4_0
-sdesc: "Ruby bindings for SDL libraries"
-ldesc: "Ruby/SDL is the ruby extension library to use SDL.
-SDL(Simple DirectMedia Layer) is a cross-platform multimedia library
-designed to provide fast access to the graphics framebuffer and audio
-device. See http://www.libsdl.org/ if you want to know SDL in detail."
