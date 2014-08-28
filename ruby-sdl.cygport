@@ -2,8 +2,8 @@ ORIG_PN="rubysdl"
 inherit rubygem
 
 NAME="ruby-sdl"
-VERSION=2.1.2
-RELEASE=3
+VERSION=2.2.0
+RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby SDL bindings"
 DESCRIPTION="Ruby/SDL is an extension library to use SDL (Simple DirectMedia
@@ -12,3 +12,15 @@ Layer). This library enables you to control audio, keyboard, mouse, joystick,
 and visual demos."
 
 PATCH_URI="2.0-opengl.patch"
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_sdl_CONTENTS="--exclude=sample ${RUBYGEM_EXTDIR#/} ${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_sdl_doc_CONTENTS="${RUBYGEM_DOCDIR#/} ${RUBYGEM_INSTDIR#/}/sample/"
+
+src_install() {
+	cd ${S}
+	rubygem_install
+
+	rm -f  ${D}${RUBYGEM_INSTDIR}/*.[ch]
+	rm -fr ${D}${RUBYGEM_INSTDIR}/{doc-en,sge,utils,win32}/
+}
