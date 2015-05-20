@@ -3,7 +3,7 @@ inherit rubygem
 
 NAME="ruby-sdl"
 VERSION=2.2.0
-RELEASE=1
+RELEASE=2
 CATEGORY="Ruby"
 SUMMARY="Ruby SDL bindings"
 DESCRIPTION="Ruby/SDL is an extension library to use SDL (Simple DirectMedia
